@@ -10,6 +10,7 @@ const Layout = () => {
             <p><Link to="/" id="linkTo">Home</Link></p>
             <p><Link to="/locations" id="linkTo">Locations</Link></p>
             <p><Link to="/travel-recs" id="linkTo">Where to?</Link></p>
+            <p><Link to="/weather" id="linkTo">Weather</Link></p>
         </div>
       </nav>
 
