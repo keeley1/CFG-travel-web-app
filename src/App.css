@@ -34,9 +34,47 @@ nav {
   background-color: #0f4795;
 }
 
-/*-----travel page styling-----*/
+/*-----home page styling-----*/
 .home-title-container {
   padding: 10px;
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.home-content-block-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.home-text-1 {
+  margin-left: 20px;
+}
+
+.home-buttons {
+  display: flex;
+  padding: 10px;
+}
+
+.home-button-1 {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 10px;
+  transition: 0.5s;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.link-button {
+  text-decoration: none;
+}
+
+.home-button-1:hover {
+  background-color: #ababab;
+  cursor: pointer;
 }
 
 /*-----location page styling-----*/
@@ -45,8 +83,12 @@ nav {
 }
 
 .card-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .card {
@@ -62,6 +104,11 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: #dad9d9;
 }
 
 .additional-info {
@@ -99,7 +146,3 @@ nav {
   cursor: pointer;
 }
 
-/*-----weather page styling-----*/
-.weather-title-container {
-  padding: 10px;
-}
