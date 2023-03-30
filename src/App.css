@@ -44,9 +44,59 @@ nav {
   padding: 10px;
 }
 
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  padding: 15px;
+  width: 250px;
+  height: 380px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin: 3px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.additional-info {
+  font-weight: 900;
+}
+
 /*-----travel recs page styling-----*/
 .travel-recs-title-container {
   padding: 10px;
+}
+
+/*-----carousel styling-----*/
+.carousel-element {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.carousel-button {
+  padding: 8px;
+  margin: 4px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(129, 211, 185);
+  transition: 0.5s;
+}
+
+.carousel-button:hover {
+  background-color: rgb(78, 123, 109);
+  color: white;
+  cursor: pointer;
 }
 
 /*-----weather page styling-----*/

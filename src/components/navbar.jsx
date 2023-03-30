@@ -4,7 +4,6 @@ import Locations from '../locations';
 import Home from '../home';
 import Layout from '../components/layout';
 import TravelRecs from '../travel-recs';
-import Weather from '../weather';
 
 function NavBar() {
   return (
@@ -14,7 +13,6 @@ function NavBar() {
             <Route index element={<Home />} />
             <Route path="locations" element={<Locations />} />
             <Route path="travel-recs" element={<TravelRecs />} />;
-            <Route path="weather" element={<Weather />} />;
           </Route>
         </Routes>
       </BrowserRouter>
