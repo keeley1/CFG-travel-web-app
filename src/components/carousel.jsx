@@ -3,6 +3,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
 
+//given more time, would be fully implemented, using states to count up
+//counters:
+const beach = 0;
+const city = 0;
+const mountains = 0;
 
 const TravelCarousel = () => {
     return (

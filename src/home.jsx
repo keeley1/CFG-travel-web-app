@@ -23,6 +23,16 @@ const Home = () => {
                     <Link to="/locations" className="link-button"><p className="home-button-1">Want to know more before you go? Take a look at our most popular destinations and learn more about them!</p></Link>
                 </div>
             </div>
+            <div className="home-content-block-3">
+                <h1>Where to book:</h1>
+                <p>Take a look at our recommendations for where to book the most import parts of your dream holiday!</p>
+                <div className="links-to-book">
+                    <a href="https://www.skyscanner.net/" className="link-redirect" target="blank"><p>Flights</p></a>
+                    <a href="https://www.booking.com/" className="link-redirect" target="blank"><p>Hotels</p></a>
+                    <a href="https://www.rentalcars.com/en/" className="link-redirect" target="blank"><p>Car hire</p></a>
+                    <a href="https://www.attractiontickets.com/en/destinations" className="link-redirect" target="blank"><p>Attractions</p></a>
+                </div>
+            </div>
         </div>
         </>
     )

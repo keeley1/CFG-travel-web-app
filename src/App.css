@@ -56,6 +56,7 @@ nav {
 .home-buttons {
   display: flex;
   padding: 10px;
+  margin-bottom: 30px;
 }
 
 .home-button-1 {
@@ -73,8 +74,29 @@ nav {
 }
 
 .home-button-1:hover {
-  background-color: #ababab;
+  background-color: #dad9d9;
   cursor: pointer;
+}
+
+.links-to-book {
+  display: flex;
+  padding: 10px;
+}
+
+.link-redirect {
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  margin: 15px;
+  color: black;
+  background-color: rgb(129, 211, 185);
+  transition: 0.5s;
+}
+
+.link-redirect:hover {
+  background-color: rgb(78, 123, 109);
+  color: white;
 }
 
 /*-----location page styling-----*/
